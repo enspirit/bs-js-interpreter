@@ -1,0 +1,36 @@
+{
+  "name": "@enspirit/bs-js-interpreter",
+  "version": "0.1.0",
+  "description": "BuckleScript bindings for JS-Interpreter.js",
+  "main": "src/JSInterpreter.bs.js",
+  "homepage": "https://github.com/enspirit/bs-js-interpreter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enspirit/bs-js-interpreter.git"
+  },
+  "author": "ygu",
+  "license": "ISC",
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "js-interpreter"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^5.0.6",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "js-interpreter": "^1.4.6"
+  }
+}
