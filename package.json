@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/bs-js-interpreter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BuckleScript bindings for JS-Interpreter.js",
   "main": "src/JSInterpreter.bs.js",
   "homepage": "https://github.com/enspirit/bs-js-interpreter#readme",
