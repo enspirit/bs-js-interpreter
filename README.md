@@ -5,7 +5,7 @@
 # Usage
 
 ```reasonml
-JSInterpreter.run("Some JS code to run.")
+JSInterpreter.eval("JSON.stringify(Some JS code to run.)");
 ```
 
 # Developers section
